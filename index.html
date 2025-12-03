@@ -5,37 +5,443 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Latentsun — Motion Design & Animation</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    body{margin:0;font-family:system-ui,Helvetica,Arial,sans-serif;background:#0c0c0c;color:#f2f2f2}
-    header{padding:2rem;text-align:center;border-bottom:1px solid #222}
-    header img{max-width:180px}
-    main{max-width:1100px;margin:2rem auto;padding:0 1rem}
-    .thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
-    .thumbs a{display:block;text-decoration:none;color:#fff;border:1px solid #222;border-radius:12px;overflow:hidden}
-    .thumbs img{width:100%;display:block}
-    .thumbs h3{margin:.75rem;font-weight:600}
-    footer{text-align:center;padding:3rem 1rem;border-top:1px solid #222;color:#777}
-  </style>
 </head>
 <body>
   <header>
     <img src="stills/logo.gif" alt="Latentsun logo">
-    <h1>Latentsun</h1>
-    <p>Motion Design & Animation by Robert Lamb</p>
+    <div class="contact">
+    <h2>Robert Lamb</h2>
+    <p></p>Motion Graphics Design & 3D Animation</p>
+    <p><a href="mailto:rob@latentsun.co.uk">rob@latentsun.co.uk</a></p>
+    <p><a href="tel:+447725409799">+44 7725 409799</a></p>
+    <p></p>
+  </div>
+    <!--<p>Motion Design & Animation by Robert Lamb</p>-->
   </header>
 
   <main>
-    <video src="videos/showreel.mp4" controls poster="stills/showreel-thumb.png" style="width:100%;border-radius:12px;margin-bottom:2rem;"></video>
+
+    <div class="video-block">
+      <video 
+        controls 
+        playsinline 
+        data-hls="https://steamdeck.tail6be755.ts.net/hls/showreel-60s_master.m3u8"
+        poster="/stills/showreel-thumb.png">
+      </video>
+    </div>
+
+    <div class="proj-header"><h2>Projects</h2></div>
 
     <div class="thumbs">
-      <a href="projects/huawei-dragonflies.html">
-        <img src="stills/huawei-thumb.webp" alt="Huawei Dragonflies">
-        <h3>Huawei — Dragonflies</h3>
-      </a>
-      <a href="projects/floating-bonsai.html">
-        <img src="stills/bonsai-thumb.jpg" alt="Floating Bonsai">
-        <h3>Floating Bonsai</h3>
-      </a>
+      <!--Huawei Dragonflies-->
+      <figure class="thumb-card">
+        <a href="projects/huawei-dragonflies.html" class="thumb-link">
+          <img 
+          src="stills/huawei-thumb.webp" 
+          alt="Huawei Dragonflies"
+          loading="lazy"
+          decoding="async"
+          width="750" height="422"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Huawei — Dragonflies</h3>
+        </figcaption>
+      </figure>
+
+      <!--LG ThinQ-->
+      <figure class="thumb-card">
+        <a href="projects/lg-thinq.html" class="thumb-link">
+          <img 
+          src="stills/lg-thumb.webp" 
+          alt="LG ThinQ AI"
+          loading="lazy"
+          decoding="async"
+          width="300" height="427"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>LG — ThinQ AI</h3>
+        </figcaption>
+      </figure>
+
+      <!--AMD Vega Pro-->
+      <figure class="thumb-card">
+        <a href="projects/amd-vegapro.html" class="thumb-link">
+          <img 
+          src="stills/amd-vegapro-thumb.webp" 
+          alt="AMD Vega Pro"
+          loading="lazy"
+          decoding="async"
+          width="750" height="422"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>AMD — Vega Pro</h3>
+        </figcaption>
+      </figure>
+
+      <!--AMD Ryzen-->
+      <figure class="thumb-card">
+        <a href="projects/amd-ryzen.html" class="thumb-link">
+          <img 
+          src="stills/amd-ryzen-thumb.jpg" 
+          alt="AMD Ryzen"
+          loading="lazy"
+          decoding="async"
+          width="800" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>AMD — Ryzen Pinnacle Ridge</h3>
+        </figcaption>
+      </figure>
+
+      <!--KFC Gifs-->
+      <figure class="thumb-card">
+        <a href="projects/kfc-email-gifs.html" class="thumb-link">
+          <img 
+          src="stills/kfc/KFC_CRM-JourneyEmails_2b_2020-07-13_v1.gif" 
+          alt="KFC Email Gifs"
+          loading="lazy"
+          decoding="async"
+          width="550" height="550"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>KFC — Email Gifs</h3>
+        </figcaption>
+      </figure>
+
+      <!--AMD Freedom-->
+      <figure class="thumb-card">
+        <a href="projects/amd-freedom.html" class="thumb-link">
+          <img 
+          src="stills/amd-freedom-thumb.jpg" 
+          alt="AMD Freedom"
+          loading="lazy"
+          decoding="async"
+          width="800" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>AMD — Freedom</h3>
+        </figcaption>
+      </figure>
+
+      <!--Adidas x Arsenal-->
+      <figure class="thumb-card">
+        <a href="projects/adidas.html" class="thumb-link">
+          <img 
+          src="stills/arsenal-thumb.webp" 
+          alt="Adidas x Arsenal"
+          loading="lazy"
+          decoding="async"
+          width="500" height="467"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Adidas X Arsenal</h3>
+        </figcaption>
+      </figure>
+
+      <!--Adidas x Olympics-->
+      <figure class="thumb-card">
+        <a href="projects/adidasxolympics.html" class="thumb-link">
+          <img 
+          src="stills/adidas-olympics.webp" 
+          alt="Adidas x Olympics"
+          loading="lazy"
+          decoding="async"
+          width="500" height="467"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Adidas X Olympics</h3>
+        </figcaption>
+      </figure>
+
+      <!--Nectar Social Ads-->
+      <figure class="thumb-card">
+        <a href="projects/nectar-socials.html" class="thumb-link">
+          <img 
+          src="stills/nectar-thumb.webp" 
+          alt="Nectar Socials"
+          loading="lazy"
+          decoding="async"
+          width="300" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Nectar — Social Ads</h3>
+        </figcaption>
+      </figure>
+
+      <!--Gain Capital-->
+      <figure class="thumb-card">
+        <a href="projects/gain-capital-rebrand.html" class="thumb-link">
+          <img 
+          src="stills/gain-thumb.webp" 
+          alt="Gain Capital - Rebrand"
+          loading="lazy"
+          decoding="async"
+          width="600" height="338"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Gain Capital — Rebrand</h3>
+        </figcaption>
+      </figure>
+
+      <!--Therion DNA-->
+      <figure class="thumb-card">
+        <a href="projects/therion-dna-166.html" class="thumb-link">
+          <img 
+          src="stills/therion-thumb.webp" 
+          alt="Therion DNA 166"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Therion DNA 166</h3>
+        </figcaption>
+      </figure>
+
+      <!--Samsung-->
+      <figure class="thumb-card">
+        <a href="projects/samsung.html" class="thumb-link">
+          <img 
+          src="stills/samsung-thumb.webp" 
+          alt="Samsung DOOH"
+          loading="lazy"
+          decoding="async"
+          width="300" height="337"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Samsung — DOOH</h3>
+        </figcaption>
+      </figure>
+
+      <!--Starbucks-->
+      <figure class="thumb-card">
+        <a href="projects/starbucks.html" class="thumb-link">
+          <img 
+          src="stills/starbucks-thumb.webp" 
+          alt="Starbucks Social Ads"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Starbucks — Social Ads</h3>
+        </figcaption>
+      </figure>
+
+      <!--Comet-->
+      <figure class="thumb-card">
+        <a href="projects/comet.html" class="thumb-link">
+          <img 
+          src="stills/comet-thumb.webp" 
+          alt="Comet 67P"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Comet 67P</h3>
+        </figcaption>
+      </figure>
+
+      <!--3D Modelling-->
+      <figure class="thumb-card">
+        <a href="projects/3d-modelling.html" class="thumb-link">
+          <img 
+          src="stills/megadrive-thumb.webp" 
+          alt="3D Modelling"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>3D Modelling</h3>
+        </figcaption>
+      </figure>
+
+      <!--Generali-->
+      <figure class="thumb-card">
+        <a href="projects/generali.html" class="thumb-link">
+          <img 
+          src="stills/generali-thumb.webp" 
+          alt="Generali — Christmas 2015"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Generali</h3>
+        </figcaption>
+      </figure>
+
+      <!--Fresenius Kabi-->
+      <figure class="thumb-card">
+        <a href="projects/fresenius-kabi.html" class="thumb-link">
+          <img 
+          src="stills/fresenius-thumb.webp" 
+          alt="Fresenius Kabi — Brand Video"
+          loading="lazy"
+          decoding="async"
+          width="300" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Fresenius Kabi</h3>
+        </figcaption>
+      </figure>
+
+      <!--Danone-->
+      <figure class="thumb-card">
+        <a href="projects/danone.html" class="thumb-link">
+          <img 
+          src="stills/danone-thumb.webp" 
+          alt="Danone — Packshots"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Danone — Packshots</h3>
+        </figcaption>
+      </figure>
+
+      <!--Snake Eyes Logos-->
+      <figure class="thumb-card">
+        <a href="projects/snake-eyes-logos.html" class="thumb-link">
+          <img 
+          src="stills/snake-eyes-thumb.webp" 
+          alt="Snake Eyes — Localisations"
+          loading="lazy"
+          decoding="async"
+          width="300" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Snake Eyes — Localisations</h3>
+        </figcaption>
+      </figure>
+
+      <!--Transformers Logos-->
+      <figure class="thumb-card">
+        <a href="projects/transformers-logos.html" class="thumb-link">
+          <img 
+          src="stills/transformers-thumb.webp" 
+          alt="Transformers — Localisations"
+          loading="lazy"
+          decoding="async"
+          width="300" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Transformers — Localisations</h3>
+        </figcaption>
+      </figure>
+
+      <!--Transformers Logos-->
+      <figure class="thumb-card">
+        <a href="projects/andrews-rebrand.html" class="thumb-link">
+          <img 
+          src="stills/siegal-thumb.webp" 
+          alt="Andrews — Rebrand Film"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Andrews — Rebrand Film</h3>
+        </figcaption>
+      </figure>
+
+      <!--Sony-->
+      <figure class="thumb-card">
+        <a href="projects/sony-networks.html" class="thumb-link">
+          <img 
+          src="stills/sony-thumb.webp" 
+          alt="Sony Networks — Logo Resolve"
+          loading="lazy"
+          decoding="async"
+          width="300" height="300"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Sony Networks — Logo Resolve</h3>
+        </figcaption>
+      </figure>
+
+      <!--Intel-->
+      <figure class="thumb-card">
+        <a href="projects/intel.html" class="thumb-link">
+          <img 
+          src="stills/intel-thumb.webp" 
+          alt="Intel — Odyssey"
+          loading="lazy"
+          decoding="async"
+          width="640" height="360"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>Intel — "Odyssey"</h3>
+        </figcaption>
+      </figure>
+
+      <!--NBA-->
+      <figure class="thumb-card">
+        <a href="projects/nba.html" class="thumb-link">
+          <img 
+          src="stills/nba-thumb.jpg" 
+          alt="NBA — Global Survey"
+          loading="lazy"
+          decoding="async"
+          width="300" height="450"
+          sizes="(min-width:1100px) 25vw, (min-width:700px) 33vw, 100vw"
+          >
+        </a>
+        <figcaption class="thumb-caption">
+          <h3>NBA — Global Survey</h3>
+        </figcaption>
+      </figure>
+
+
       <!-- Add more as you go -->
     </div>
   </main>
@@ -43,5 +449,10 @@
   <footer>
     © Latentsun Ltd | All rights reserved
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script src="/hls-init.js"></script>
+  <script src="/still.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,1 @@
+window.MEDIA_BASE = 'https://steamdeck.tail6be755.ts.net';
