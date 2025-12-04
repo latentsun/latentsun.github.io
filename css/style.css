@@ -232,6 +232,15 @@ video[data-hls] {
     margin-bottom: 2rem;
 }
 
+.proj-header-showreel {
+    display: inline-block;
+    border: 0px solid var(--accent);
+    border-left: 6px solid var(--accent);
+    padding: 0.0rem 0.0rem;   /* reduce vertical padding */
+    line-height: 0.4;    
+    margin-bottom: 2rem;
+}
+
 .proj { 
     max-width:900px; 
     margin:2rem auto; 
