@@ -108,6 +108,31 @@ video[data-hls] {
   margin-bottom: 2rem;
 }
 
+.video-block-showreel {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;   /* keeps the correct shape */
+  overflow: hidden;       /* hides the cropped edges */
+}
+
+.video-block-showreel video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-block-showreel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;      /* ← adjust this to crop more/less */
+  background: black; /* match your site's background colour */
+  pointer-events: none;
+}
+
 .video-block-2 {
   margin-bottom: 1rem;
 }
@@ -236,7 +261,7 @@ video[data-hls] {
     display: inline-block;
     border: 0px solid var(--accent);
     border-left: 6px solid var(--accent);
-    padding: 0.0rem 0.0rem;   /* reduce vertical padding */
+    padding: 0.0rem 1rem;   /* reduce vertical padding */
     line-height: 0.4;    
     margin-bottom: 2rem;
 }
