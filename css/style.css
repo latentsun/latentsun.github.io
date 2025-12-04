@@ -114,7 +114,7 @@ video[data-hls] {
   z-index: 0;        /* sits behind the header */
   position: relative;
   margin-top: -5rem;  /* pull it up behind the header - adjust to taste */
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   aspect-ratio: 16 / 9;
   overflow: hidden;
 }
