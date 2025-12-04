@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+
+MSG="${1:-Update site}"
+
+git add .
+git commit -m "$MSG"
+git push prod main
