@@ -360,7 +360,7 @@ video[data-hls] {
     align-items: center;
     justify-content: center;  /* center items vertically in the column */
     text-align: center;       /* center text inside header */
-    gap: 0.75rem;             /* smaller gap between logo + contact block */
+    gap: 1rem;             /* smaller gap between logo + contact block */
   }
 
   .contact {
@@ -374,5 +374,12 @@ video[data-hls] {
   margin-bottom: 1rem;
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  }
+
+  header img { 
+    display: inline-block;
+    max-width:300px; 
+    height:auto; 
+    filter:invert(100%)
   }
 }
