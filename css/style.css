@@ -67,30 +67,6 @@ header img {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  /* center items vertically in the column */
-    text-align: center;       /* center text inside header */
-    gap: 0.75rem;             /* smaller gap between logo + contact block */
-  }
-
-  .contact {
-    text-align: center;
-  }
-
-  .video-block-showreel {
-  z-index: 0;        /* sits behind the header */
-  position: relative;
-  margin-top: 2rem;  /* pull it up behind the header - adjust to taste */
-  margin-bottom: 1rem;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  }
-}
-
 main { 
     max-width:var(--content-width); 
     margin:2rem auto; 
@@ -120,9 +96,9 @@ video[data-hls] {
 }
 
 .video-block-showreel {
-  z-index: 0;        /* sits behind the header */
+  z-index: 0;
   position: relative;
-  margin-top: -5rem;  /* pull it up behind the header - adjust to taste */
+  margin-top: -5rem;
   margin-bottom: 1rem;
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -375,4 +351,28 @@ video[data-hls] {
 @media (max-width: 520px) {
   .lb-btn { width: 36px; height: 36px; font-size: 22px; }
   .lb-figure img { max-height: 72vh; }
+}
+
+@media (max-width: 760px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* center items vertically in the column */
+    text-align: center;       /* center text inside header */
+    gap: 0.75rem;             /* smaller gap between logo + contact block */
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .video-block-showreel {
+  z-index: 0;
+  position: relative;
+  margin-top: -2.5rem;
+  margin-bottom: 1rem;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  }
 }
