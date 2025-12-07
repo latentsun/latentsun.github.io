@@ -378,7 +378,7 @@ video[data-hls] {
 
   header img { 
     display: inline-block;
-    max-width:300px; 
+    max-width:260px; 
     height:auto; 
     filter:invert(100%)
   }
