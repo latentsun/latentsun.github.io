@@ -368,18 +368,10 @@ video[data-hls] {
   }
 
   .video-block-showreel {
-  z-index: 0;
-  position: relative;
   margin-top: -2rem;
-  margin-bottom: 1rem;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
   }
 
   header img { 
-    display: inline-block;
     max-width:260px; 
-    height:auto; 
-    filter:invert(100%)
   }
 }
