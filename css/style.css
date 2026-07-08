@@ -130,7 +130,7 @@ header {
 }
 
 .contact a {
-  color: var(--text);
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -149,6 +149,82 @@ footer {
     padding:3rem 1rem; 
     border-top:1px solid var(--line); 
     color:var(--muted); 
+}
+
+/* General page links */
+.policy-content a,
+footer a {
+  color: #8f2cff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.policy-content a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Policy Page */
+
+.policy-page {
+  max-width: 850px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.policy-hero {
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+}
+
+.policy-hero h1 {
+  margin: 0 0 0.5rem;
+}
+
+.policy-updated {
+  margin: 0;
+  color: var(--muted);
+}
+
+.policy-content {
+  border: 1px solid var(--line);
+  background: #050505;
+  padding: 2rem;
+}
+
+.policy-content h2 {
+  margin-top: 2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.policy-content h2:first-child {
+  margin-top: 0;
+}
+
+.policy-content p,
+.policy-content li {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.policy-content ul {
+  padding-left: 1.2rem;
+}
+
+.policy-content a,
+footer a {
+  color: #8f2cff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.policy-content a:hover,
+footer a:hover {
+  text-decoration: underline;
 }
 
 video[data-hls] {
