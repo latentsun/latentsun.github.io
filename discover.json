@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "edition": "Discover — preview edition",
+  "published_at": "2026-10-30T17:00:00Z",
+  "intro": "A tiny preview of your personalised reading list. This is sample content, not an automatic edition yet.",
+  "items": [
+    {
+      "id": "gnome51",
+      "type": "article",
+      "category": "Linux & desktop",
+      "title": "GNOME 51 brings smoother animations and improved screen capture",
+      "summary": "The September release improves graphics frame scheduling, recording efficiency, and numerous desktop applications.",
+      "why": "You enjoy tuning Fedora, GNOME and your own extensions — the compositor changes are worth watching.",
+      "source": "GNOME",
+      "url": "https://release.gnome.org/51/",
+      "published_at": "2026-09-16"
+    },
+    {
+      "id": "gnome-weekly",
+      "type": "article",
+      "category": "Open source",
+      "title": "This Week in GNOME: Fifty One!",
+      "summary": "A roundup of application updates and development activity around the GNOME 51 release.",
+      "why": "A good place to spot smaller open-source projects and UI ideas for your desktop.",
+      "source": "This Week in GNOME",
+      "url": "https://thisweek.gnome.org/posts/2026/09/twig-266/",
+      "published_at": "2026-09-18"
+    },
+    {
+      "id": "fedora44",
+      "type": "article",
+      "category": "Fedora",
+      "title": "What is new in Fedora Workstation 44",
+      "summary": "An official overview of Fedora Workstation 44, including its GNOME 50 desktop.",
+      "why": "Useful background for understanding and customising the Fedora version you run.",
+      "source": "Fedora Magazine",
+      "url": "https://fedoramagazine.org/whats-new-fedora-workstation-44/",
+      "published_at": "2026-04-28"
+    }
+  ]
+}
